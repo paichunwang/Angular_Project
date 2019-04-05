@@ -8,6 +8,7 @@ import { TrueFluidTypeComponent } from './components/true-fluid-type/true-fluid-
 import { ThreejsComponent } from './components/threejs/threejs.component';
 import { LaxxxScrollComponent } from './components/laxxx-scroll/laxxx-scroll.component';
 import { PureVanillaJSParallaxComponent } from './components/pure-vanilla-jsparallax/pure-vanilla-jsparallax.component';
+import { PreloadjsComponent } from './components/preloadjs/preloadjs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PureVanillaJSParallaxComponent } from './components/pure-vanilla-jspara
     TrueFluidTypeComponent,
     ThreejsComponent,
     LaxxxScrollComponent,
-    PureVanillaJSParallaxComponent
+    PureVanillaJSParallaxComponent,
+    PreloadjsComponent
   ],
   imports: [
     BrowserModule,

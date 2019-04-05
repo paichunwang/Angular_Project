@@ -44,5 +44,3 @@ export class TrueFluidTypeComponent implements OnInit {
   }
   ngOnInit() {}
 }
-
-// https://cdn.jsdelivr.net/gh/scottkellum/typetura.js@master/js/typetura.min.js

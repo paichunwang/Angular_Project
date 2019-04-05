@@ -6,6 +6,7 @@ import { LightdarkmodeComponent } from "../app/components/lightdarkmode/lightdar
 import { ThreejsComponent } from "../app/components/threejs/threejs.component";
 import { LaxxxScrollComponent } from "../app/components/laxxx-scroll/laxxx-scroll.component";
 import { PureVanillaJSParallaxComponent } from "../app/components/pure-vanilla-jsparallax/pure-vanilla-jsparallax.component";
+import { PreloadjsComponent } from "../app/components/preloadjs/preloadjs.component";
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: "purecssparallax",
     component: PureVanillaJSParallaxComponent
+  },
+  {
+    path: "preloader",
+    component: PreloadjsComponent
   }
 ];
 
